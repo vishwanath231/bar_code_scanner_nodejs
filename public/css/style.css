@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 1rem;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#reader {
+    width: 600px;
+}
+
+#result {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#view_result {
+    display: none;
+}
+
+#view_result.active {
+    display: block;
+}
+
+/* a{
+            background-color: rgb(190, 238, 190);
+            width: fit-content;
+            padding: .8rem 1rem;
+            border-radius: 5px;
+            color: #000;
+            font-size: 16px;
+            font-weight: 500;
+        } */
+
+#html5-qrcode-button-camera-start {
+    background-color: rgb(84, 158, 84) !important;
+    width: fit-content !important;
+    padding: .8rem 1rem !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+
+#html5-qrcode-button-camera-stop {
+    background-color: crimson !important;
+    width: fit-content !important;
+    padding: .8rem 1rem !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+
+#html5-qrcode-button-camera-permission {
+    background-color: rgb(84, 158, 84) !important;
+    width: fit-content !important;
+    padding: .8rem 1rem !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+
+#html5-qrcode-anchor-scan-type-change {
+    background-color: rgb(50, 128, 192) !important;
+    width: fit-content !important;
+    padding: .8rem 1rem !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    border: none !important;
+    cursor: pointer !important;
+    display: block;
+    margin: 1rem auto;
+    text-decoration: none;
+}
+
+#html5-qrcode-button-file-selection {
+    background-color: rgb(205, 205, 205) !important;
+    width: fit-content !important;
+    padding: .8rem 1rem !important;
+    border-radius: 5px !important;
+    color: #000 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+
+.result_btns {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.redirect_domo {
+    background-color: rgb(50, 128, 192);
+    width: 100%;
+    padding: .8rem 1rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto;
+    text-decoration: none;
+}
+
+.redirect_scan {
+    background-color: rgb(205, 205, 205);
+    width: 100%;
+    padding: .8rem 1rem;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
