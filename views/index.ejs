@@ -8,13 +8,26 @@
     <script src="/js/html5-qrcode.min.js"></script>
 </head>
 <body data-rsssl=1>
-    
-    <main>
-        <div id="reader"></div>
-        <div id="result"></div>
-        <div id="view_result">
+
+
+    <div class="container">
+
+        <div class="container_box">
+            <div class="images_box">
+                <img src="img/styleunion.jpg" alt="">
+                <img src="img/partnership.png" alt="">
+                <img src="img/gwc.svg" alt="">
+            </div>
         </div>
-    </main>
+        
+        <main class="main">
+            <div id="reader"></div>
+            <div id="result"></div>
+            <div id="view_result">
+            </div>
+        </main>
+    </div>
+
 
 
     <script>
@@ -24,8 +37,8 @@
 
         const scanner = new Html5QrcodeScanner('reader', {
             qrbox: {
-                width: 250,
-                height: 250,
+                width: 200,
+                height: 200,
             },
             fps: 20,
         });
