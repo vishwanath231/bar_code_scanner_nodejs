@@ -209,7 +209,7 @@ main {
 
 .images_box img:nth-child(1){
     margin-right: 2rem;
-    width: 170px;
+    width: 150px;
 }
 .images_box img:nth-child(2){
     margin-right: 2rem;
@@ -218,7 +218,7 @@ main {
     opacity: 0.6;
 }
 .images_box img:nth-child(3){
-    width: 150px;
+    width: 130px;
 }
 
 
