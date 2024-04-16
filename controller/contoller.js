@@ -14,7 +14,7 @@ const readCSV = (req, res) =>{
     
     const dataArray = [];
 
-    fs.createReadStream(path.join(__dirname, '/upload/Product_Master.csv'))
+    fs.createReadStream(path.join(__dirname, '/upload/Product Master Retail Rank 3 (1).csv'))
       .pipe(csv())
       .on('data', (row) => {
         // Assuming the CSV file has headers, each row will be an object
