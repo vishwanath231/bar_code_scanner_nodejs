@@ -23,7 +23,7 @@ app.set('view engine', 'ejs');
 app.use('/', viewRouter);
 
 // Port
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8001;
 
 // listen port
 app.listen(PORT, () => {
